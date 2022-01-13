@@ -39,6 +39,7 @@ def getMag(s, params):
         s["warnings"].append(f"{s['filename']} - Unknown base magnification for file")
     else:
         mag = float(mag)
+        print(mag)
 
     return mag
 
